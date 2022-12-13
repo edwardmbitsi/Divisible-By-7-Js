@@ -1,3 +1,7 @@
   let num = prompt('Enter a number')
-  let result = num % 7 === 0 ? "Yes" : "No";
-  console.log(result);
+  // Check if the number is divisible by seven
+  if (num % 7 === 0) {
+    console.log(num + " is divisible by seven");
+  } else {
+    console.log(num + " is not divisible by seven");
+  }
